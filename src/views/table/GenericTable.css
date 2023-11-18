@@ -1,0 +1,29 @@
+/* GenericTable.css */
+.custom-table {
+  width: 100%; /* Set the table width */
+  /* border: 1px solid #cbd5e1;  */
+}
+
+.custom-table thead {
+  background-color: #f0f0f0; /* Customize the header background color */
+}
+
+.custom-table th {
+  font-weight: bold; /* Make header cells bold */
+  text-align: left; /* Align header text to the left */
+  padding: 12px; /* Add padding to header cells */
+}
+
+.custom-table td {
+  padding: 12px; /* Add padding to data cells */
+  border-bottom: 1px solid #cbd5e1; /* Add a border between rows */
+}
+
+.custom-table tr:hover {
+  background-color: #e0e0e0; /* Change the background color on hover */
+}
+
+.table-responsive-x {
+  overflow-x: auto;
+  min-height: 200px; /* Add horizontal scroll when the table overflows */
+}

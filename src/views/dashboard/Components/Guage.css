@@ -1,0 +1,14 @@
+.text-group{
+    display: none;
+}
+.Min-Max{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 18px;
+    margin-top: -40px;
+}
+.text{
+    display: flex;
+
+}
